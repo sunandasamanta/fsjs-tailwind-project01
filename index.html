@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Data Analyast</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                },
+                fontFamily: {
+                    "roboto": ['Roboto', 'sans-serif']
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="mt-8  font-roboto ">
+    <main class="relative text-small">
+        <section class="bg-gradient-to-b from-white to-blue-100">
+            <nav class="w-9/12 mr-auto ml-auto flex pt-5 relative">
+                <div class="logo p-2">
+                    <img src="./images/Logo.png" alt="logo">
+                </div>
+                <div>
+                    <ul class="flex absolute right-0 font-normal text-xl">
+                        <li class="py-4 px-6">About</li>
+                        <li class="py-4 px-6">Pricing</li>
+                        <li class="py-4 px-6">Contact Us</li>
+                        <li class="py-4 px-6">Login</li>
+                        <li class=""><button type="button"
+                                class="px-8 py-4 text-purple-800 border border-purple-800 rounded-full ">Start free
+                                trial</button></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="w-9/12 mr-auto ml-auto flex py-20">
+                <article class="w-1/2">
+                    <h2 class="flex text-purple-800 text-lg"><sub><img src="./images/Path604.png" alt=""></sub> <sup><img src="./images/Path604.png" alt=""></sup> v3.1 released.<a href="#">Learn more</a></h2>
+                    <h1 class="font-bold text-7xl my-8">Your data with real-time analytics</h1>
+                    <p>Harness the potential of Big Data Analytics & Cloud Services and become a data driven
+                        organization
+                        with Needle tail</p>
+                    <div class="mt-6">
+                        <button type="button" class="py-2 px-6 text-white font-medium border rounded-full bg-purple-800 hover:bg-purple-900">Start free
+                            trial</button>
+                        <button type="button" class="py-2 px-6 text-purple-800 font-medium border rounded-full bg-white">Lean
+                            more</button>
+                    </div>
+                </article>
+                <div class="w-1/2 bg-[url(./images/Group-21.svg)] bg-no-repeat bg-center"></div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
